@@ -52,3 +52,7 @@ hr{
     padding: 20px;
     background-color: antiquewhite;
 }
+
+i {
+    justify-content: right;
+}

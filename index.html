@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root" class="container">
+        <header class="debug">
+            <div class="logo">
+                <img src="https://www.boolean.careers/images/misc/logo.png" alt="logo boolean">
+            </div>
+            <div class="btn">
+            <input type="text" name="" id="" placeholder="inserisci un nuovo elemento">
+            <button>Aggiungimi</button>
+
+            </div>
+            
+        </header>
+
+
+        <main class="debug">
+
+            <div class="todo-list">
+                <ul >
+                    <li v-for="todo in toDoList">
+                        {{ todo }}<hr>
+                    </li> 
+                    
+                </ul>
+            </div>
+
+
+        </main>
+
+
+
+
+    </div>
+    <script src="vue/script.js"></script>
+</body>
+</html>

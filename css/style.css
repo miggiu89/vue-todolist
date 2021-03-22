@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+.container{
+    width:70%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+.logo {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.logo img{
+    width: 200px;
+    height: 60px;
+}
+
+.btn{
+    margin: 20px 0;
+}
+
+.btn button,input{
+    padding: 15px;
+    border-radius: 20px;
+}
+
+header .btn {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    padding-bottom:15px ;
+}
+
+hr{
+    color:black;
+}
+
+.todo-list{
+    padding: 20px;
+    background-color: antiquewhite;
+}

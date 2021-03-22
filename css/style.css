@@ -42,10 +42,12 @@ header .btn {
 ul li {
     list-style: none;
     padding-bottom:15px ;
+    cursor:pointer;
 }
 
 hr{
     color:black;
+    margin-top: 3px;
 }
 
 .todo-list{
@@ -53,6 +55,15 @@ hr{
     background-color: antiquewhite;
 }
 
-i {
-    justify-content: right;
-}
+li:hover {
+    background-color: rgb(170, 126, 126);
+  }
+
+  li{
+      position:relative;
+  }
+
+  li i {
+      position:absolute;
+      right:0;
+  }

@@ -10,4 +10,10 @@ var app = new Vue ({
             'relax'
         ]
     },
+    methods:{
+        addnewToDo(){
+            this.toDoList.push(this.newToDo)
+            this.newToDo='';
+        }
+    }
 })

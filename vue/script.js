@@ -9,7 +9,13 @@ var app = new Vue ({
             'fare la spesa',
             'relax'
         ]
+
+        
     },
+
+   
+    
+    
     methods:{
         addnewToDo(){
             this.toDoList.push(this.newToDo)
@@ -18,6 +24,17 @@ var app = new Vue ({
         
         removeTodo(index){
             this.lastDeleted =this.toDoList.splice(index,1)
-        }
+            
+        },
+
+        removeAll(){
+
+
+        },
+        restoreAll(){
+
+        },
     }
+
+    
 })
